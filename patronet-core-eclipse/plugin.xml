@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Entity Wizard"
+            id="patronet-core-eclipse-entity">
+      </category>
+      <wizard
+            name="Entity Wizard"
+            icon="icons/sample.png"
+            category="patronet-core-eclipse-entity"
+            class="hu.patronet.patronetcoreeclipse.wizards.EntityWizard"
+            id="hu.patronet.patronetcoreeclipse.wizards.EntityWizard">
+      </wizard>
+   </extension>
+
+</plugin>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Patronet Core Eclipse Plugin
+Bundle-SymbolicName: patronet-core-eclipse;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Vendor: hu.patronet
+Require-Bundle: org.eclipse.core.resources,
+  org.eclipse.ui,
+  org.eclipse.ui.ide,
+  org.eclipse.core.runtime
+Automatic-Module-Name: patronet-core-eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
